@@ -144,4 +144,4 @@
 - [142-integrate-azure-services-for-web-solutions](./142-integrate-azure-services-for-web-solutions/)
 - [143-monitor-diagnose-and-fix-iot-solutions](./143-monitor-diagnose-and-fix-iot-solutions/)
 - [144-creating-a-secure-site-to-site-vpn-connection-between-two-azure-virtual-networks](./144-creating-a-secure-site-to-site-vpn-connection-between-two-azure-virtual-networks/)
-- [145-azure-vm-auto-shutdown-and-startup-using-azure-functions](./145-azure-vm-auto-shutdown-and-startup-using-azure-functions/)
+- [145-challenge-lab-working-with-custom-images](./145-challenge-lab-working-with-custom-images/)
