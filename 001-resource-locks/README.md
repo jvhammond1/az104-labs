@@ -1,20 +1,46 @@
-Lab Details
-In this lab, you will learn how to prevent users to accidently delete resources using Azure resource locks.
+## 🧪 Lab: Azure Resource Locks
 
-Introduction
-What are Azure resource locks?
-Azure resource locks prevent users in an organization from accidently deleting or modifying critical resources. Azure locks are different from role-based access control in a way that using these locks you can apply restrictions across all users and roles. Users can apply locks on resource level, resource group level or subscription level.
+### 📋 Summary
+In this lab, you will learn how to prevent users from accidentally deleting or modifying resources using Azure Resource Locks.
 
-There are two types of locks available in Azure:
-CanNotDelete: If this lock is applied to any of the resources, the user can still read or modify the resource but cannot delete it.
-ReadOnly: As the name suggests, with this lock applied, a user can only read the resource without causing any modifications or deletions.
-In the Azure portal, these locks are called Delete and Read-only.
+---
 
-Task Details
-Sign in to Azure Portal
-Deploying a Virtual Machine
-Creating a Delete Lock
-Creating a Read-Only Lock
-Deleting the Locks
-Validation Test
-Deleting the Virtual Machine
+### 🎯 Learning Objectives
+- Understand the purpose and types of Azure resource locks.
+- Apply `Delete` and `Read-only` locks at various levels (resource, resource group).
+- Practice lock management through the Azure Portal.
+
+---
+
+### 🧰 Tools Used
+- Azure Portal
+
+---
+
+### 📚 Key Concepts
+
+**What are Azure Resource Locks?**  
+Azure resource locks provide a way to safeguard critical Azure resources by preventing accidental deletion or modification. Unlike RBAC, which controls *who* can do *what*, locks enforce restrictions *regardless of role*.
+
+There are two types:
+- `CanNotDelete` (Delete Lock): Resource can be read or modified, but not deleted.
+- `ReadOnly`: Resource can be read only — no modifications or deletions allowed.
+
+These appear in the Azure Portal as **Delete** and **Read-only**.
+
+---
+
+### ✅ Task Outline
+1. Sign in to Azure Portal
+2. Deploy a Virtual Machine
+3. Create a Delete Lock
+4. Create a Read-only Lock
+5. Remove Locks
+6. Validation Test
+7. Delete the Virtual Machine
+
+---
+
+### 🔗 Related Docs
+- [Lock resources to prevent changes](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources)
+
