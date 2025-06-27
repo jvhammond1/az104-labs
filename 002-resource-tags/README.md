@@ -1,16 +1,41 @@
-Lab Details
-In this lab we will walk through the steps on how to set tags on resources.
+## 🧪 Lab: Apply Tags to Azure Resources
 
-Introduction
-What is a Virtual Machine?
-A virtual machine (VM) is a virtual environment that functions as a virtual computer system with its own CPU, memory, network interface, and storage, created on a physical hardware system (located off- or on-premises). VMs allow multiple different operating systems to run simultaneously on a single computer. A VM provides an environment that is isolated from the rest of a system, so whatever is running inside a VM won’t interfere with anything else running on the host hardware.
+### 📋 Summary
+In this lab, we walk through how to apply tags to Azure resources to enable logical organization and cost tracking.
 
-What is a tag?
-You apply tags to your Azure resources, resource groups, and subscriptions to logically organize them into a taxonomy. Each tag consists of a name and a value pair. For example, you can apply the name Environment and the value Production to all the resources in production.
+---
 
-Task Details
-Sign in to Azure Portal
-Create a virtual machine
-Create tags
-Validation Test
-Delete the resources
+### 🎯 Learning Objectives
+- Understand what tags are and how they're used in Azure.
+- Create and assign tags to virtual machines.
+- Validate tag application through the Azure Portal.
+
+---
+
+### 🧰 Tools Used
+- Azure Portal
+
+---
+
+### 📚 Key Concepts
+
+**What is a Virtual Machine?**  
+A virtual machine (VM) simulates a complete computer system, including CPU, memory, and storage, allowing multiple operating systems to run on a single host. It’s isolated from the host system and other VMs.
+
+**What is a Tag?**  
+Tags in Azure are name/value pairs that help organize resources logically.  
+Example: `Environment=Production`, `CostCenter=Accounting`
+
+Tags can be applied to:
+- Resources (e.g., VMs)
+- Resource Groups
+- Subscriptions
+
+---
+
+### ✅ Task Outline
+1. Sign in to Azure Portal  
+2. Create a Virtual Machine  
+3. Apply Tags  
+4. Validate Tags  
+5. Delete R
